@@ -46,3 +46,10 @@ source .venv/bin/activate
 pip install -r requirements.txt
 python -m pytest -q
 ```
+
+## CI Features
+
+-   Linting with Ruff
+-   Matrix test runs (Python 3.11, 3.12)
+-   Playwright browser caching for faster CI
+-   JUnit test report uploaded as a workflow artifact
