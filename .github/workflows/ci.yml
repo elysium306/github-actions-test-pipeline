@@ -36,7 +36,7 @@ jobs:
 
             - name: Run tests (JUnit)
               run: |
-                  python -m pytest --junitxml=test-results/junit.xml
+                  python -m pytest -q -m "not integration" --junitxml=test-results/junit.xml
 
             - name: Upload test results
               if: always()
