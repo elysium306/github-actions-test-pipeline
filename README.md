@@ -33,3 +33,16 @@ Initial pipeline setup. Additional optimizations planned.
 -   [ ] Add matrix builds
 -   [ ] Add test reports
 -   [ ] Integrate Docker runner
+
+## How it works
+
+This repo demonstrates a minimal CI pipeline using GitHub Actions that runs automated tests on every push and pull request.
+
+## Run locally
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+python -m pytest -q
+```
