@@ -1,0 +1,31 @@
+# ===== Python =====
+__pycache__/
+*/__init__.py
+*.py[cod]
+.pytest_cache/
+
+# ===== Virtual environments =====
+.venv/
+venv/
+ENV/
+
+# ===== Playwright =====
+test-results/
+playwright-report/
+.playwright/
+
+# ===== Coverage / reports =====
+.coverage
+coverage.xml
+htmlcov/
+
+# ===== OS / Editor noise =====
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.iml
+
+# ===== Logs / env =====
+*.log
+.env
